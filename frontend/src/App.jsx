@@ -1,10 +1,12 @@
+import { BrowserRouter } from 'react-router-dom';
+import AppRoutes from './routes/AppRoutes';
+
 function App() {
   return (
-    <main>
-      <h1>Study AI</h1>
-      <p>Frontend structure initialized.</p>
-    </main>
-  )
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

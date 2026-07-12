@@ -6,6 +6,12 @@ backend/venv/
 backend/__pycache__/
 *.pyc
 
+# Uploads
+backend/uploads/
+
+# Chroma database
+backend/chroma_db/
+
 # Node
 frontend/node_modules/
 
